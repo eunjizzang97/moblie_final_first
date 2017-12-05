@@ -29,8 +29,8 @@ public class MainActivity extends TabActivity {
         mTab.addTab(spec);
 
         // 세 번째 탭
-        intent = new Intent(this, Map.class);
-        spec = mTab.newTabSpec("Map").setIndicator("Map").setContent(intent);
+        intent = new Intent(this, Maps.class);
+        spec = mTab.newTabSpec("Maps").setIndicator("Maps").setContent(intent);
         mTab.addTab(spec);
 
         // 네 번째 탭

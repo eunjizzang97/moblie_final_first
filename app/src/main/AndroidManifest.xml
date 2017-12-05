@@ -25,7 +25,7 @@
         </activity>
         <activity android:name=".Thread" />
         <activity android:name=".DB" />
-        <activity android:name=".Map" />
+        <fragmentactivity android:name=".Maps" />
         <activity android:name=".Developer" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
@@ -37,11 +37,11 @@
         -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="@string/google_maps_key" />
+            android:value="AIzaSyCK2CuxPYqbHn7KrYawgO3TtEFDoJYvS6k" />
 
         <activity
             android:name=".Maps"
-            android:label="@string/title_activity_maps"></activity>
+            android:label="AIzaSyCK2CuxPYqbHn7KrYawgO3TtEFDoJYvS6k"></activity>
     </application>
 
 </manifest>
