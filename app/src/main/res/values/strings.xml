@@ -1,4 +1,11 @@
 <resources>
     <string name="app_name">216230110_KwakEunJi</string>
     <string name="title_activity_maps">Map</string>
+    <string name="product_id">product_id</string>
+    <string name="not_assigned">not_assigned</string>
+    <string name="product_name">product_name</string>
+    <string name="product_quantity">product_quantity</string>
+    <string name="add">add</string>
+    <string name="find">find</string>
+    <string name="delete">delete</string>
 </resources>
