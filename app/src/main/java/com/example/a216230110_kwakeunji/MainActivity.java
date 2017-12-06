@@ -20,7 +20,7 @@ public class MainActivity extends TabActivity {
 
         // 첫 번째 탭
         intent = new Intent(this, Thread.class);
-        spec = mTab.newTabSpec("Thread").setIndicator("Thread").setContent(intent);
+        spec = mTab.newTabSpec("Thread4").setIndicator("Thread4").setContent(intent);
         mTab.addTab(spec);
 
         // 두 번째 탭
@@ -34,8 +34,8 @@ public class MainActivity extends TabActivity {
         mTab.addTab(spec);
 
         // 네 번째 탭
-        intent = new Intent(this, Developer.class);
-        spec = mTab.newTabSpec("Developer").setIndicator("Dev").setContent(intent);
+        intent = new Intent(this, Web.class);
+        spec = mTab.newTabSpec("Web").setIndicator("Web").setContent(intent);
         mTab.addTab(spec);
     }
 

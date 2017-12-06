@@ -8,4 +8,7 @@
     <string name="add">add</string>
     <string name="find">find</string>
     <string name="delete">delete</string>
+    <string name="button">Button</string>
+    <string name="button2">입력하시고 터치하세요</string>
+    <string name="press_me">press_me</string>
 </resources>
